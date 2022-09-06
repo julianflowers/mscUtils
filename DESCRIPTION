@@ -1,0 +1,25 @@
+Package: mscUtils
+Title: Utilities for MSc ecology literature reviews
+Version: 0.0.0.9000
+Authors@R: 
+    person("Julian", "Flowers", , "jrf128@student.aru.ac.uk", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5262-4526"))
+Description: Tools for extracting information from published literature.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests: 
+    dplyr,
+    ggplot2,
+    pdftools,
+    readtext,
+    reticulate
+Imports: 
+    cli,
+    glue,
+    lifecycle,
+    magrittr,
+    rlang,
+    withr
