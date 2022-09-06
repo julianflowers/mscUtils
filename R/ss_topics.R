@@ -4,6 +4,7 @@ get_ss_topics <- function(search){
 
   require(tictoc)
   require(purrr)
+  if(!require(semanticscholar))install_github('https://github.com/KTH-Library/semanticscholar')
   require(semanticscholar)
   require(dplyr)
   require(tidyr)
